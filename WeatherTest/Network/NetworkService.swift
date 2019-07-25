@@ -26,7 +26,6 @@ class WeatherNetworkService: NetworkServiceProtocol{
                         handler(answer)
                     }
                     
-                    print(json)
                 } catch let decodErr{
                     print(decodErr)
                 }
