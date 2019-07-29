@@ -17,53 +17,6 @@
             endingLineNumber = "41"
             landmarkName = "sendRequest(with:handler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WeatherTest.WeatherNetworkService.sendRequest(with: Swift.String, handler: (WeatherTest.Weather) -&gt; ()) -&gt; ()"
-                  moduleName = "WeatherTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreypetrovskiy/Desktop/WeatherTest/WeatherTest/NetworkService.swift"
-                  timestampString = "585771035.723847"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "1935">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WeatherTest.WeatherNetworkService.sendRequest(with: Swift.String, handler: (WeatherTest.Weather) -&gt; ()) -&gt; ()"
-                  moduleName = "WeatherTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreypetrovskiy/Desktop/WeatherTest/WeatherTest/NetworkService.swift"
-                  timestampString = "585771035.7260751"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "2115">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WeatherTest.WeatherNetworkService.sendRequest(with: Swift.String, handler: (WeatherTest.Weather) -&gt; ()) -&gt; ()"
-                  moduleName = "WeatherTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andreypetrovskiy/Desktop/WeatherTest/WeatherTest/NetworkService.swift"
-                  timestampString = "585771035.728013"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "2478">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,6 +31,38 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
             endingLineNumber = "42"
+            landmarkName = "sendRequest(with:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherTest/Network/NetworkService.swift"
+            timestampString = "585852671.792683"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "sendRequest(with:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherTest/Network/NetworkService.swift"
+            timestampString = "585852671.792997"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "sendRequest(with:handler:)"
             landmarkType = "7">
          </BreakpointContent>

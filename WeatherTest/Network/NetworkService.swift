@@ -21,7 +21,12 @@ class WeatherNetworkService: NetworkServiceProtocol{
             }
             if let data = data{
                 do{
+                     let jsom = try JSONSerialization.jsonObject(with: data, options: [])
+                    
+                       print(jsom)
                     let answer = try JSONDecoder().decode(Weather.self, from: data)
+                   
+                 
                     OperationQueue.main.addOperation {
                         handler(answer)
                     }

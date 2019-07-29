@@ -52,7 +52,7 @@ class WeatherController: UIViewController {
         let tempDouble = model.main.temp - 273.15
         weatherView.tempValueLbl.text = String(format: "%.2f", tempDouble) + " " + "ºC"
         weatherView.windSpeedValueLbl.text = String(Int(model.wind.speed)) + " " + "meter/sec"
-        weatherView.windDirectionValueLbl.text = String(Int(model.wind.deg)) + "º"
+        weatherView.windDirectionValueLbl.text = String(Int(model.wind.deg ?? 000)) + "º"
     }
     
     @IBAction func switchCity(_ sender: UISegmentedControl) {

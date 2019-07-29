@@ -20,6 +20,6 @@ struct MainData: Codable {
     var temp: Double
 }
 struct WindData: Codable {
-    var deg: Double
+    var deg: Double?
     var speed: Double
 }
